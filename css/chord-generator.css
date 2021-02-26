@@ -1,0 +1,50 @@
+#chord_charts {
+	margin-top: 30px;
+}
+
+#chord_charts h2, #chord_charts p {
+	text-align: center;
+	background-color: white;
+	padding: 15px;
+	margin: 0px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#chord_charts h2 {
+	margin-bottom: 5px; padding: 7px;
+}
+
+#chord_charts div {
+	padding: 5px;
+	margin: 0px;
+	background-color: #dbdbdb;
+	width: 260px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#chord_charts p img {
+	vertical-align: middle;
+	padding: 10px 0px 30px 0px;
+	margin: 0px;
+}
+
+#horizontal p img {
+	padding-bottom: 31px;
+}
+
+#vertical p img {
+}
+
+#vertical {
+	float: right;
+}
+
+.and_more {
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 0px;
+}

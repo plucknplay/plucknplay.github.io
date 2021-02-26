@@ -1,0 +1,21 @@
+Pressemitteilung
+
+Neue Version der Musiksoftware Chord Scale Generator veröffentlicht - Chord Scale Generator jetzt auch für Mac OS X erhältlich
+
+Jena, 18. Oktober 2011 - Im Rahmen des Softwareprojektes pluck-n-play ist ab sofort die Version 1.2 des  mit dem Eclipse Community Award ausgezeichneten Chord Scale Generators erhältlich. Die Lernsoftware für Gitarristen, Bassisten und andere Saiteninstrumentalisten ist mit dieser neuen Version jetzt auch für das Betriebssystem Mac OS X erhältlich. Eine kostenlose Testversion kann unter http://www.pluck-n-play.com/de heruntergeladen werden.
+
+Software:
+Der Chord Scale Generator ermöglicht Berechnungen rund um Akkorde und Skalen (Tonleitern) und visualisiert die Ergebnisse in grafischen Ansichten wie einem Griffbrett oder einer Klaviatur. Die Akkorde und Skalen können auch als Grifftabellen, Tabulaturen und in Notenschreibweise dargestellt werden. Die Software kann für sämtliche Saiteninstrumente und Instrumentenstimmungen eingesetzt werden. Anstelle von herkömmlich genutzten statischen Datenbanken verwendet der Chord Scale Generator generische Algorithmen. Dieser Ansatz erlaubt so auch die individuelle Erweiterung der Anwendung um zusätzliche Akkord- und Skalendefinitionen.
+
+Der Chord Scale Generator wurde 2009 auf der internationalen Entwicklerkonferenz EclipseCon in Santa Clara (Kalifornien, USA) mit dem Eclipse Community Award ausgezeichnet. Eine Fachjury bewertete dabei die Benutzeroberfläche, die Innovation sowie den Umfang.
+
+Version 1.2:
+Neben Windows und Linux können nun auch Mac-User mit dem Chord Scale Generator mehr über Akkorde und Skalen lernen. Die Benutzeroberfläche der Version 1.2 bietet eine weiter verbesserte Handhabbarkeit in einem neuen Layout. So ist es nun möglich, sämtliche Aktionen des Programms mit Tastaturkürzeln zu belegen. Außerdem haben Anwender zusätzliche Möglichkeiten zum individuellen Anpassen der Benutzeroberfläche. Im Zuge der Neuveröffentlichung wurde zudem die Webpräsenz des Softwareprojektes pluck-n-play grundlegend überarbeitet.
+
+Unternehmen:
+meißner & meißner sind die Brüder Andreas und Mathias Meißner aus der Universitätsstadt Jena. Ihr Ziel ist es, mit dem Softwareprojekt pluck-n-play innovative Software für Saiteninstrumente zu entwickeln. Dabei liegt der Fokus ihrer Lernsoftware auf der anschaulichen Vermittlung musiktheoretischer Fragestellungen.
+
+Kontakt:
+Andreas Meißner
++49 (3641) 354910
+am@pluck-n-play.com

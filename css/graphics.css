@@ -1,0 +1,10 @@
+#page section img {
+	margin: 5px 10px 0px 0px;
+	padding: 0px;
+	border: solid 1px #505050;
+	vertical-align: bottom;
+}
+
+.files {
+	color: #eaeaea;
+}

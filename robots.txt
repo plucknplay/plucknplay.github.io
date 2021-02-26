@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /de/license.html
+Disallow: /en/license.html
+Disallow: /de/allgemeine_geschaeftsbedingungen.html
+Disallow: /en/terms.html
+Disallow: /de/rechtliches.html
+Disallow: /en/legal.html
+Disallow: /de/impressum.html
+Disallow: /en/imprint.html
+Disallow: /en/error404.php
+Disallow: /data/press/
+Disallow: /data/terms/

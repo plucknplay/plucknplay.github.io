@@ -1,0 +1,35 @@
+#page section p {
+    font-size:          85%;
+    line-height:        1.3em;
+    padding-top:        4px;
+    padding-bottom:     4px;
+    margin-top:         0px;
+    margin-bottom:      0px;
+}
+
+#page section ul {
+    font-size:          85%;
+    line-height:        1.3em;
+    padding-top:        4px;
+    padding-bottom:     4px;
+    margin-top:         0px;
+    margin-bottom:      0px;
+}
+
+.emphasize {
+    font-weight:        bold;
+}
+
+p#revocation_address {
+    padding-left:       70px;
+    padding-bottom:     10px;
+}
+
+#pdf_download {
+    padding:            0px 0px 5px 10px;
+}
+
+#pdf_download a img {
+    vertical-align:     middle;
+    padding-right:      10px;
+}

@@ -1,0 +1,15 @@
+#sitemap {
+	list-style-type: square;
+}
+
+#sitemap ul {
+    padding: 5px 0px 0px 0px;
+}
+
+ul.level_2 {
+    margin:   0px 0px 5px 0px;
+}
+
+.sitemap {
+    padding-bottom: 30px;
+}

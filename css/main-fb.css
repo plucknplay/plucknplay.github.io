@@ -1,0 +1,65 @@
+body {
+	font: normal small/1.35em Helvetica, Verdana, Arial, sans-serif;
+	padding: 10px;
+	margin: 10px;
+	color: #505050;
+}
+
+a {
+	color: #ff952a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff952a;
+	text-decoration: underline;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	line-height: 150%;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 100%;
+	padding: 20px 0px 6px 0px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+h2 {
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.video {
+	padding: 10px 0px 10px 0px;
+	position: relative;
+	width: 220px;
+	height: 124px;
+}
+
+.video img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.video img.top {
+	opacity: 0.3;
+}
+
+.video img.top:hover {
+	opacity: 0.8;
+}

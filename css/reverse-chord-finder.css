@@ -1,0 +1,82 @@
+#example {
+	margin-top: 30px;
+}
+
+#example h2, #example p {
+	text-align: center;
+	background-color: white;
+	padding: 15px;
+	margin: 0px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#example h2 {
+	margin-bottom: 5px; padding: 7px;
+}
+
+#example div {
+	padding: 5px;
+	margin: 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#example p img {
+	vertical-align: middle;
+	text-align: left;
+}
+
+#translate {
+	background-color: #fae798;
+}
+
+#translate p img {
+	padding: 0px 5px;
+}
+
+#chord_name_finder {
+	width: 260px;
+	background-color: #dce18f;
+}
+
+#chord_names {
+	text-align: center;
+	font-size: 170%;
+	line-height: 150%;
+}
+
+#arrow_2 {
+	float: right; width: 240px;
+}
+
+#arrow_1, #arrow_3 {
+	width: 240px;
+}
+
+#chord_generator {
+	width: 260px;
+	background-color: #ff952b;
+}
+
+#chord_generator p img {
+	padding: 5px 9px 0px 9px;
+}
+
+#alternative_fingerings {
+	float: right;
+	width: 260px;
+	background-color: #b6cddb;
+}
+
+#alternative_fingerings p img {
+	padding: 13px 10px 16px 10px;
+}
+
+.and_more {
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 0px;
+}

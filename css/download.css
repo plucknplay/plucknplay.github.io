@@ -1,0 +1,13 @@
+p.download_file {
+	margin:			10px 0px 10px 50px;
+}
+
+p.download_file a img {
+	vertical-align:		middle;
+	padding-right:		10px;
+}
+
+p.download_file img {
+	vertical-align:		middle;
+	padding-right:		15px;
+}

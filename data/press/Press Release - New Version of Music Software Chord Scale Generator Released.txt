@@ -1,0 +1,21 @@
+Press Release
+
+New Version of Music Software Chord Scale Generator Released - Chord Scale Generator now available for Mac OS X
+
+Jena, October 18, 2011 - As part of the software project pluck-n-play, version 1.2 of the award winning Chord Scale Generator is now released. With this new version, the educational software for guitarists, bassists and other string instrumentalists is now also available for the operating system Mac OS X. At http://www.pluck-n-play.com, a free test version can be downloaded.
+
+Software:
+The Chord Scale Generator enables calculations for chords and scales and visualizes the results in graphical views such as a fretboard or a keyboard. The chords and scales can also be presented in musical notation as well as chord charts and tablatures. The software can be used for all plucked string instruments and instrument tuning. Rather than building on a statical limited database the Chord Scale Generator uses generic algorithms. This approach also allows for the individual extension of the program with additional chord and scale definitions.
+
+In 2009, the Chord Scale Generator was awarded with the Eclipse Community Award at the international developer conference EclipseCon in Santa Clara (California, USA). A panel of judges evaluated applications on their user interfaces, innovation and comprehensiveness.
+
+Version 1.2:
+Beside Windows and Linux, Mac users are now also able to learn more about chords and scales with the help of the Chord Scale Generator. The user interface of version 1.2 provides a further improved usability in a new layout. It is now possible to bind all commands of the program to key sequences. Also, users get additional possibilities to individually customize their user interface. In the course of this new release, the web presence of the software project pluck-n-play was fundamentally revised.
+
+Company:
+meißner & meißner are the brothers Andreas and Mathias Meißner from the German university and science city of Jena. With the software project pluck-n-play they aim to develop innovative software for plucked string instruments. The focus of their educational software lies in the graphical presentation of music theoretical questions.
+
+Contact:
+Andreas Meißner
++49 (3641) 354910
+am@pluck-n-play.com

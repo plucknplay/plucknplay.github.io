@@ -1,0 +1,40 @@
+#screenshots {
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.screenshot {
+	padding: 15px 20px 15px 20px;
+	position: relative;
+	height: 131px;
+	width: 220px;
+	float: left;
+}
+
+.screenshot img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;	
+	transition: opacity 0.5s ease-in-out;
+}
+
+.screenshot img.top {
+	opacity: 0.3;
+}
+
+.screenshot img.top:hover {
+	opacity: 0.8;
+}
+
+
+#text {
+	padding-top: 30px;
+	clear: left;
+}
+
+.link {
+	margin:	10px 50px 10px 25px;
+}

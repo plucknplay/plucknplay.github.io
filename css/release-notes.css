@@ -1,0 +1,163 @@
+#note_keys, #note_views, #note_notes_view, #note_import {
+	margin-top: 50px;
+	margin-left: 230px;
+}
+
+#screenshot_keys, #screenshot_views, #screenshot_notes_view, #screenshot_import {
+	margin-top: 40px;
+	width: 200px;
+	float: left;
+}
+
+#note_fretboard {
+	margin-top: 50px;
+	margin-right: 276px;
+}
+
+#screenshot_fretboard {
+	margin-top: 40px;
+	width: 246px;
+	float: right;
+}
+
+#note_chord_results, #note_export, #note_fingering {
+	margin-top: 50px;
+}
+
+#screenshot_notes_view {
+	margin-top: 60px;
+}
+
+#note_scale_block_mode {
+	margin-top: 60px;
+	margin-right: 180px;
+}
+
+#screenshot_scale_block_mode {
+	margin-top: 50px;
+	width: 150px;
+	float: right;
+}
+
+#screenshot_export_filename, #screenshot_views_info, #screenshot_fretboard_2 {
+	width: 260px;
+	float: left;
+}
+
+#screenshot_export, #screenshot_fretboard_info, #screenshot_keyboard {
+	margin-left: 290px;
+}
+
+#screenshot_keyboard {
+	margin-left: 287px;
+}
+
+#note_notes_mode, #note_info, #note_fretboard_keyboard {
+	margin-top: 50px;
+}
+
+#screenshot_notes_mode {
+	margin-top: 40px;
+	width: 230px;
+	float: left;
+}
+
+#note_video {
+	margin-top: 50px;
+	margin-left: 120px;
+}
+
+#screenshot_video {
+	margin-top: 60px;
+	width: 90px;
+	float: left;
+}
+
+#screenshot_notes_view, #screenshot_scale_block_mode, #screenshot_fretboard_2, #screenshot_keyboard, #screenshot_video {
+	border: #505050 solid 1px;
+} 
+
+#data_directory {
+	padding: 3px;
+	font-style: italic;
+	background-color: #e6e6e6;
+}
+
+
+/* Hover-Image */
+
+.screenshot {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.screenshot img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;	
+	transition: opacity 0.5s ease-in-out;
+}
+
+.screenshot img.top {
+	opacity: 0.3;
+}
+
+.screenshot img.top:hover {
+	opacity: 0.8;
+}
+
+/* Define for each image the padding */
+
+#screenshot_import img.top, #screenshot_import img.top:hover {
+	padding: 52px 75px;
+}
+
+#screenshot_notes_mode img.top, #screenshot_notes_mode img.top:hover {
+	padding: 5px 75px;
+}
+
+#screenshot_views_info img.top, #screenshot_views_info img.top:hover, #screenshot_fretboard_info img.top, #screenshot_fretboard_info img.top:hover {
+	padding: 32px 105px;
+}
+
+#screenshot_video img.top, #screenshot_video img.top:hover {
+	padding: 25px 20px;
+}
+
+#screenshot_keys img.top, #screenshot_keys img.top:hover {
+	padding: 31px 75px;
+}
+
+#screenshot_chord_results img.top, #screenshot_chord_results img.top:hover {
+	padding: 18px 250px;
+}
+
+#screenshot_notes_view img.top, #screenshot_notes_view img.top:hover {
+	padding: 22px 75px;
+}
+
+#screenshot_scale_block_mode img.top, #screenshot_scale_block_mode img.top:hover {
+	padding: 42px 50px;
+}
+
+/* Layout improvements */
+
+#screenshot_notes_mode .screenshot {
+	margin-bottom: -50px;
+}
+
+#screenshot_video .screenshot {
+	margin-bottom: -30px;
+}
+
+#screenshot_notes_view .screenshot {
+	margin-bottom: -33px;
+}
+
+#screenshot_scale_block_mode .screenshot {
+	margin-bottom: 4px;
+}

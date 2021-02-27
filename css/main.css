@@ -1,0 +1,551 @@
+body {
+	font: normal small/1.35em Helvetica, Verdana, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background: url('../images/tile.jpg') repeat top left;
+	color: #505050;
+}
+
+a {
+	color: #ff952a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff952a;
+	text-decoration: underline;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	line-height: 150%;
+	margin-bottom: 20px;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	margin-bottom: 25px;
+	padding: 0px;
+	border: none;
+}
+
+li {
+	margin: 5px;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 100%;
+	padding: 20px 0px 6px 0px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+h2 {
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+img {
+	border-style: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+table {
+	margin-left: 10px;
+	padding: 10px;
+}
+
+table td {
+	padding: 2px;
+}
+
+th {
+	text-align: right;
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+td {
+	vertical-align: top;
+	padding-bottom: 10px;
+}
+
+table table {
+	padding: 0px;
+	margin: 0px;
+}
+
+table table td {
+	padding: 0px;
+	margin: 0px;
+}
+
+table table tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+.green {
+	color: #c0d069;
+}
+
+#page {
+	width: 920px;
+	margin: 10px auto;
+	background: white;
+	border: 1px solid #c0c0c0;
+}
+
+p.quotes {
+	text-indent: -6px;
+	padding: 10px 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #505050;
+	background-color: #f2f4f4;
+	font: italic 14px/140% Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 0px;
+}
+
+p.signature {
+	text-align: right;
+}
+
+#browser_info {
+	color: white;
+	font-size: 130%;
+	font-weight: bold;
+	background: #ff952a;
+	border-bottom: 1px solid white;
+	text-align: center;
+}
+
+#browser_info p {
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+}
+
+#browser_info a {
+	color: white;
+	text-decoration: underline;
+}
+
+#browser_info a:hover {
+	color: #eaeaea;
+}
+
+#chords_table_caption {
+	font-size: 11px;
+}
+
+
+/*
+ *  --------
+ * | HEADER |
+ *  --------
+ *
+ */
+
+#page header {
+	background-color: #828282;
+	margin: 10px 10px 0px 10px;
+	height: 154px;
+	padding: 16px 0px 0px 16px;
+	line-height: 1.5em;
+	border-bottom: 1px solid #ededed;
+}
+
+#header_content {
+	background: url('../images/players/guitar.png') no-repeat right;
+	height: 158px;
+}
+
+#page header figure {
+	width: 112px;
+	float: left;
+	margin: 7px;
+}
+
+#page header hgroup {
+	width: 505px;
+	float: left;
+	color: white;
+	margin: 0px 0px 0px 17px;
+	padding: 0px 139px 0px 0px;
+}
+
+#page header hgroup h1 {
+	font: bold 36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 4px 0px;
+	margin: 0px;
+	border: 0px;
+	text-transform: lowercase;
+}
+
+#page header hgroup h2 {
+	font: italic 11px "Helvetica", Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
+	margin: 0px;
+	padding: 10px 0px 0px 2px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 120%;
+}
+
+#page header nav ul {
+	width: 80px;
+	font-size: 12px;
+	color: white;
+	text-transform: lowercase;
+	margin: 0px;
+	padding: 0px 0px 0px 804px;
+}
+
+#page header nav ul a, li {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	padding: 1px 0px;
+	margin: 0px;
+}
+
+#page header nav ul a:hover {
+	color: #eaeaea;
+}
+
+#en {
+	border-bottom: solid 1px white;
+}
+
+
+/*
+ *  ------------
+ * | NAVIGATION |
+ *  ------------
+ *
+ */
+
+ul#main-navigation {
+	margin: 0px 10px;
+	padding: 10px 0px;
+	height: 30px;
+	text-indent: 0px;
+	text-align: center;
+	line-height: 30px;
+	background: #000;
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+ul#main-navigation li {
+	list-style: none;
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul#main-navigation a {
+	float: left;
+	padding: 0px 25px;
+	border-right: 1px solid #808080;
+	text-decoration: none;
+	color: white;
+}
+
+ul#main-navigation a#last {
+	border-color: #000;
+}
+
+ul#main-navigation li a.active {
+	background: none;
+	color: #c0d069;
+}
+
+ul#main-navigation a:hover {
+	color: #edf2d5;
+}
+
+ul#sub-navigation {
+	margin: 0px 10px;
+	padding: 0px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	text-indent: 25px;
+	background-color: #c0d069;
+	font-weight: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+ul#sub-navigation li {
+	display: inline;
+	margin: 0px;
+	padding: 15px;
+}
+
+ul#sub-navigation li img.separator {
+	padding: 0px;
+}
+
+ul#sub-navigation a {
+	margin-left: -20px;
+	padding: 6px 6px 4px 6px;
+	text-decoration: none;
+	color: #505050;
+}
+
+ul#sub-navigation a:hover {
+	color: #505050;
+	background-color: #cfdb8e;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+ul#sub-navigation a.active {
+	color: #505050;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/*
+ *  -------------
+ * | MAIN SECTION |
+ *  -------------
+ *
+ */
+
+section {
+	margin: 30px 0px 50px 20px;
+	padding: 0px 50px 15px 23px;
+	float: left;
+	width: 549px;
+	min-height: 350px;
+	border-right: 1px solid #eaeaea;
+}
+
+section p {
+	padding: 7px 0px 7px 0px;
+}
+
+section ul {
+	padding: 10px 0px 0px 0px;
+}
+
+section li {
+	margin-left: 40px;
+	list-style-type: disc;
+	color: #505050;
+}
+
+section li p {
+	padding: 0px;
+}
+
+.screenshot, .video {
+	padding: 10px 0px 10px 0px;
+	position: relative;
+	height: 131px;
+	width: 220px;
+}
+
+.video {
+	height: 124px;
+}
+
+.screenshot img, .video img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.screenshot img.top, .video img.top {
+	opacity: 0.3;
+}
+
+.screenshot img.top:hover, .video img.top:hover {
+	opacity: 0.8;
+}
+
+.third_level_nav a {
+	font-size: 60%;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 10px;
+	border-left: 1px solid #eaeaea;
+}
+
+.note {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.code {
+	font-family: "Courier New", Courier, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 90%;
+	background-color: #e9e9e9;
+	margin: 7px 50px 15px 50px;
+	text-indent: 20px;
+}
+
+.link {
+	color: white;
+	background: #ff952a url('../images/link-bullet.jpg') no-repeat 10px 7px;
+	padding: 5px 0px 5px 30px;
+	margin: 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.link a {
+	color: white;
+}
+
+iframe {
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+
+/*
+ *  ---------
+ * | SIDEBAR |
+ *  ---------
+ *
+ */
+
+aside {
+	float: left;
+	width: 220px;
+	padding: 0px 0px 0px 30px;
+	margin: 41px 0px 50px -1px;
+	border-left: 1px solid #eaeaea;
+}
+
+aside h2 {
+	text-transform: uppercase;
+	color: #505050;
+	margin: 0px 0px 10px 0px;
+	padding: 20px 0px 0px 0px;
+	border-bottom: 1px solid #d8d8d8;
+	text-align: left;
+	font: 14px/25px Georgia, "Times New Roman", Times, serif;
+}
+
+aside p {
+	padding: 10px 0px;
+	font-size: 11px;
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+
+aside figure {
+	margin: 0px;
+	padding: 5px 0px 20px 0px;
+	text-align: center;
+}
+
+#fb-root {
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
+.addthis_toolbox {
+	margin-left: -2px;
+}
+
+.addthis_toolbox a {
+	margin-bottom: 5px;
+}
+
+#subscribe_on_youtube {
+	margin-top: 10px;
+}
+
+#subscribe_on_youtube a img {
+	vertical-align: middle;
+}
+
+#youtube_link {
+	padding-left: 2px;
+	padding-right: 12px;
+}
+
+
+/*
+ *  --------
+ * | FOOTER |
+ *  --------
+ *
+ */
+
+footer {
+	margin: 0px 10px 10px 10px;
+	padding: 17px 0px;
+	font-size: 12px;
+	height: 16px;
+	background: #c0d069;
+	color: #505050;
+	clear: left;
+}
+
+footer a {
+	color: #505050;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 0px 0px 0px 30px;
+	padding: 0px 0px 0px 30px;
+	border-left: 1px solid #e5edc2;
+}
+
+footer a:hover, footer a.active {
+	color: #828282;
+}
+
+#footer_left {
+	width: 622px;
+	padding: 0px;
+	margin: 0px;
+	padding-right: 280px;
+	text-align: right;
+}
+
+#footer_right {
+	float: right;
+	width: 298px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}

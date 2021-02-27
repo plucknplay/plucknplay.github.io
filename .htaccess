@@ -1,0 +1,61 @@
+ErrorDocument 404 /en/error404.php
+
+Redirect permanent /en/screenshots.html http://www.pluck-n-play.com/en/screenshots.html
+Redirect permanent /en/system.html http://www.pluck-n-play.com/en/system_requirements.html
+Redirect permanent /en/buy_clickandbuy.php  http://www.pluck-n-play.com/en/buy.html
+Redirect permanent /en/kauf.html http://www.pluck-n-play.com/en/buy.html
+Redirect permanent /en/news.html http://www.pluck-n-play.com/en/index.html
+Redirect permanent /en/tutorial.html http://www.pluck-n-play.com/en/index.html
+Redirect permanent /en/newsletter.php http://www.pluck-n-play.com/en/index.html
+Redirect permanent /en/instruments.html http://www.pluck-n-play.com/en/string-instruments-list.html
+Redirect permanent /en/chords.html http://www.pluck-n-play.com/en/chord-list.html
+Redirect permanent /en/scales.html http://www.pluck-n-play.com/en/scale-list.html
+Redirect permanent /en/scale http://www.pluck-n-play.com/en/scale-list.html
+Redirect permanent /en/scale-fi.. http://www.pluck-n-play.com/en/scale-finder.html
+Redirect permanent /en/system_requirements.html http://www.pluck-n-play.com/en/index.html
+Redirect permanent /de.. http://www.pluck-n-play.com/de/index.html
+Redirect permanent /de..... http://www.pluck-n-play.com/de/index.html
+Redirect permanent /de/screenshots.html http://www.pluck-n-play.com/de/screenshots.html
+Redirect permanent /de/features.html http://www.pluck-n-play.com/de/funktionen.html
+Redirect permanent /de/philosophy.html http://www.pluck-n-play.com/de/philosophie.html
+Redirect permanent /de/instruments.html http://www.pluck-n-play.com/de/instrumente.html
+Redirect permanent /de/chords.html http://www.pluck-n-play.com/de/akkorde.html
+Redirect permanent /de/scales.html http://www.pluck-n-play.com/de/skalen.html
+Redirect permanent /de/system.html http://www.pluck-n-play.com/de/systemanforderungen.html
+Redirect permanent /de/buy.html http://www.pluck-n-play.com/de/kauf.html
+Redirect permanent /de/buy_clickandbuy.php http://www.pluck-n-play.com/de/kauf.html
+Redirect permanent /de/legal.html http://www.pluck-n-play.com/de/rechtliches.html
+Redirect permanent /de/imprint.html http://www.pluck-n-play.com/de/impressum.html
+Redirect permanent /de/imprint.html http://www.pluck-n-play.com/de/impressum.html
+Redirect permanent /de/terms.html http://www.pluck-n-play.com/de/allgemeine_geschaeftsbedingungen.html
+Redirect permanent /de/tutorial.html http://www.pluck-n-play.com/de/index.html
+Redirect permanent /de/news.html http://www.pluck-n-play.com/de/index.html
+Redirect permanent /de/newsletter.php http://www.pluck-n-play.com/de/index.html
+Redirect permanent /de/instrumente.html http://www.pluck-n-play.com/de/saiteninstrumente-liste.html
+Redirect permanent /de/akkorde.html http://www.pluck-n-play.com/de/akkordliste.html
+Redirect permanent /de/skalen.html http://www.pluck-n-play.com/de/skalenliste.html
+Redirect permanent /de/systemanforderungen.html http://www.pluck-n-play.com/de/index.html
+Redirect permanent /images/CSG-Logo.png http://www.pluck-n-play.com/images/chord-scale-generator.png
+Redirect permanent /data/Chord http://www.pluck-n-play.com/en/index.html
+Redirect permanent /en/chord-generator http://www.pluck-n-play.com/en/chord-generator.html
+Redirect permanent /en/string-instruments-list http://www.pluck-n-play.com/en/string-instruments-list.html
+Redirect permanent /en/string-instruments http://www.pluck-n-play.com/en/string-instruments-list.html
+Redirect permanent /en/string http://www.pluck-n-play.com/en/string-instruments-list.html
+Redirect permanent /en/buy http://www.pluck-n-play.com/en/buy.html
+Redirect permanent "/data/Chord Scale Generator - Tutorial.pdf" http://www.pluck-n-play.com/en/index.html
+Redirect permanent "/data/Chord Scale Generator - Benutzerhandbuch.pdf" http://www.pluck-n-play.com/en/index.html
+Redirect permanent "/data/Allgemeine Geschaeftsbedingungen.pdf" http://www.pluck-n-play.com/data/terms/Allgemeine%20Geschaeftsbedingungen.pdf
+Redirect permanent "/data/Endnutzer Lizenzvertrag.pdf" http://www.pluck-n-play.com/data/terms/Endnutzer%20Lizenzvertrag.pdf
+Redirect permanent "/data/General Terms and Conditions.pdf" http://www.pluck-n-play.com/data/terms/General%20Terms%20and%20Conditions.pdf
+Redirect permanent "/data/End User License Agreement.pdf" http://www.pluck-n-play.com/data/terms/End%20User%20License%20Agreement.pdf
+
+<IfModule mod_headers.c>
+  Header set X-UA-Compatible "IE=Edge,chrome=1"
+  <FilesMatch "\.(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+    Header unset X-UA-Compatible
+  </FilesMatch>
+</IfModule>
+
+AddDefaultCharset utf-8
+
+ServerSignature Off

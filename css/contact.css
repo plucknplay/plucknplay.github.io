@@ -1,0 +1,38 @@
+table {
+	margin: 30px 25px;
+}
+
+table tr td {
+	padding: 0px 0px 5px 0px;
+}
+
+.contact {
+	width:				330px;
+}
+
+.email {
+	width:				330px;
+}
+
+.error {
+	font-size:          10px;
+    line-height:        12px;
+    color:              #ff0000;
+	padding-left:       10px;
+}
+
+.no_padding {
+    padding:            0px;
+}
+
+#captcha_description {
+    padding-left:       10px;
+    width:              150px;
+	font-size:          10px;
+	line-height:        12px;
+	vertical-align:     top;
+}
+
+.react {
+    width:              280px;
+}

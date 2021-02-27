@@ -1,0 +1,52 @@
+.payment {
+    padding:            35px 0px 20px 100px;
+    margin:             0px 0px 35px 16px;
+}
+
+.payment_prize {
+    float:              right;
+    width:              250px;
+    padding:            0px;
+    margin:             0px;
+}
+
+.payment_terms_box {
+    margin:             10px 0px 10px 20px;
+}
+
+.error_msg_terms {
+    font-size:          10px;
+    line-height:        12px;
+    color:              #ff0000;
+    margin:             0px 0px 20px 20px;
+}
+
+.button {
+	margin-left:		-20px;
+}
+
+#prize_note {
+    font-size:          80%;
+    line-height:        1.3em;
+}
+
+#payment_info {
+    font-size:          80%;
+    line-height:        1.2em;
+    margin:             5px 0px 30px 0px;
+}
+
+#payment_info th {
+    font-weight:        bold;
+    text-align:         right;
+    vertical-align:     top;
+    padding-right:      10px;
+}
+
+#payment_info {
+    border:             solid 2px #a0a0a0;
+}
+
+#payment_info p {
+    padding-left:		20px;
+}

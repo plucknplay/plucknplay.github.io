@@ -1,0 +1,57 @@
+h1 {
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding-top: 0px;
+}
+
+p.date {
+	margin:	10px 0px 0px 0px;
+	padding: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#software_logo {
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: -10px;
+	width: 110px;
+	float: left;
+}
+
+#eca_logo {
+	margin: -10px 10px 0px 10px;
+	text-align: right;
+	width: 96px;
+	float: right;
+}
+
+p#company {
+	font-size: 10px;
+	background-color: #f2f4f4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 10px -5px;
+	padding: 5px;
+}
+
+.press_contact {
+	width: 200px;
+	float: left;	
+}
+
+p#press_download {
+	text-align: right;
+	color: #eaeaea;
+}
+
+p#press_download b {
+	color: #505050;
+}
